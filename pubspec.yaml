@@ -1,0 +1,51 @@
+name: my_mobile_game
+description: "কুচু-পুচু - A collection of 15 classic games in one app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.3.5
+  flutter_svg: ^2.0.9
+  confetti: ^0.8.0
+  flutter_native_splash: ^2.4.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#9C27B0"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+# Native Splash Screen Configuration
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/app_logo.jpg
+  color_dark: "#1a1a2e"
+  image_dark: assets/images/app_logo.jpg
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/app_logo.jpg
+    color_dark: "#1a1a2e"
+    image_dark: assets/images/app_logo.jpg
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/icons/
+    - assets/images/
