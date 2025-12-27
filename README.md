@@ -43,6 +43,11 @@ A premium collection of **15 classic and arcade games** in a single Flutter mobi
 - **Animations:** Custom `AnimationController` and `Tween` sequences for buttons/transitions.
 - **Graphics:** `flutter_svg` for crisp, scalable icons and high-quality JPEG/PNG assets.
 
+## 📦 Download APK
+
+Directly download the latest version of the app:
+[**Download KUCHU-PUCHU-v1.0.apk**](KUCHU-PUCHU-v1.0.apk)
+
 ## 📦 How to Build
 
 1. Clone the repository.
