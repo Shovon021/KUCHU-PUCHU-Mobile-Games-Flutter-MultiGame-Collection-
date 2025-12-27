@@ -35,6 +35,16 @@ A premium collection of **15 classic and arcade games** in a single Flutter mobi
 14. **Reaction Game:** Test your speed against the clock.
 15. **Number Guess:** Logical deduction game.
 
+## 📸 Screenshots
+
+| Splash Screen | Home Screen | Game Collection |
+|:---:|:---:|:---:|
+| ![Splash](screenshots/splash_screen.jpg) | ![Home](screenshots/home_screen.png) | ![Games](screenshots/games_grid.png) |
+
+| Settings & Customization | App Icon |
+|:---:|:---:|
+| ![Settings](screenshots/settings.png) | ![Icon](screenshots/app_logo.png) |
+
 ## 🛠️ Technical Implementation
 
 - **Framework:** Flutter (Dart)
@@ -50,20 +60,23 @@ Directly download the latest version of the app:
 
 ## 📦 How to Build
 
-1. Clone the repository.
-```bash
-git clone https://github.com/Shovon021/KUCHU-PUCHU-Mobile-Games-Flutter-MultiGame-Collection-
-```
-2. Install dependencies.
-```bash
-flutter pub get
-```
-3. Run or Build.
-```bash
-flutter run
-# OR
-flutter build apk --release
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Shovon021/KUCHU-PUCHU-Mobile-Games-Flutter-MultiGame-Collection-
+   ```
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+3. **Run the app:**
+   ```bash
+   flutter run
+   ```
+4. **Build APK:**
+   ```bash
+   flutter build apk --release
+   ```
+
 
 ---
 Developed with ❤️ for the mobile gaming community.
